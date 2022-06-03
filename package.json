@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "forge build",
-    "lint": "forge fmt",
+    "lint": "forge fmt && eslint '**/*.{js,ts}' --fix",
     "test": "forge test && hardhat test",
     "test-forge": "forge test",
     "test-hardhat": "hardhat test",
@@ -25,15 +25,24 @@
     "@types/chai": "^4.3.0",
     "@types/mocha": "^9.1.0",
     "@types/node": "^17.0.35",
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-promise": "^5.2.0",
     "chai": "^4.3.6",
+    "eslint": "^8.16.0",
     "ethereum-waffle": "^3.2.0",
     "ethers": "^5.6.6",
     "hardhat": "^2.9.5",
+    "hardhat-contract-sizer": "^2.5.1",
     "hardhat-preprocessor": "^0.1.4",
+    "solidity-coverage": "^0.7.20",
     "ts-node": "^10.7.0",
     "typechain": "^8.0.0",
-    "typescript": "^4.6.4",
-    "solidity-coverage": "^0.7.20",
-    "hardhat-contract-sizer": "^2.5.1"
+    "typescript": "^4.6.4"
   }
 }
