@@ -2,6 +2,8 @@ import fs from "fs";
 import "@nomiclabs/hardhat-waffle";
 import "@typechain/hardhat";
 import "hardhat-preprocessor";
+import "hardhat-contract-sizer";
+import "solidity-coverage";
 import { HardhatUserConfig, task } from "hardhat/config";
 
 import example from "./tasks/example";
