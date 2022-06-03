@@ -14,7 +14,7 @@ forge test
 
  * Use Hardhat:
 ```bash
-npm install
+yarn install
 npx hardhat test
 ```
 

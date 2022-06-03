@@ -1,5 +1,5 @@
 {
-  "name": "hardhat-foundry-template",
+  "name": "opinionated-hardhat-foundry-template",
   "version": "1.0.0",
   "description": "The harmony between Foundry and Hardhat.",
   "directories": {
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "hardhat test"
   },
-  "author": "Devan Non <devanon@chainstride.capital>",
+  "author": "Justin Phu <me@justinphu.dev>",
   "license": "Apache-2.0",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.6",
